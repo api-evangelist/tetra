@@ -1,22 +1,59 @@
 aid: tetra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tetra.png
 name: Tetra
-description: Tetra is a company surfaced as a portfolio company of wing-venture-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tetra (Tetra AI) was a Seattle, Washington startup building on-device AI models
+  for vision, audio, and speech, optimized to run efficiently on mobile, compute,
+  automotive, and IoT hardware. Backed by Wing Venture Capital and Shield Capital,
+  the company was acquired by Qualcomm on October 1, 2023 and its technology and
+  team were absorbed into Qualcomm's AI model and Snapdragon efforts. As an
+  independent company Tetra no longer operates a standalone website, developer
+  portal, or public API surface, so there are no API artifacts to enrich. This
+  profile is retained as a Wing Venture Capital portfolio record with its identity
+  reconciled to the acquired entity.
 url: https://raw.githubusercontent.com/api-evangelist/tetra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - wing-venture-capital
+- shield-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: qualcomm
+x-acquired-date: '2023-10-01'
+x-headquarters: Seattle, Washington, United States
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- On-Device AI
+- Computer Vision
+- Speech Recognition
+- Audio AI
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
