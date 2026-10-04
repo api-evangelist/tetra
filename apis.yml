@@ -51,9 +51,9 @@ modified: '2026-07-21'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - On-Device AI
-- Computer-Vision
+- Computer Vision
 - Speech Recognition
 - Audio AI
 - Acquired
@@ -66,6 +66,8 @@ tags_raw:
 - Speech Recognition
 - Audio AI
 - Acquired
+- Machine-Learning
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
